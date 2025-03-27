@@ -427,7 +427,6 @@ minetest.register_on_mods_loaded(function()
 			},
 			y_max = 31000,
 			y_min = -1,
-			place_offset_y = 2,
 			decoration = "fireflies:hidden_firefly",
 		})
 	
@@ -435,7 +434,6 @@ minetest.register_on_mods_loaded(function()
 			name = "fireflies:firefly_low_bamboo_cave",
 			deco_type = "simple",
 			place_on = "everness:moss_block",
-			place_offset_y = 2,
 			sidelen = 16,
 			fill_ratio = 0.0065,
 			biomes = asuna.features.cave.bamboo,
@@ -449,7 +447,6 @@ minetest.register_on_mods_loaded(function()
 			name = "fireflies:firefly_low_dorwinion_cave",
 			deco_type = "simple",
 			place_on = "dorwinion:dorwinion_grass",
-			place_offset_y = 2,
 			sidelen = 16,
 			fill_ratio = 0.0065,
 			biomes = asuna.features.cave.dorwinion,
